@@ -1,0 +1,6 @@
+server/
+scripts/
+*.ts
+!vite.config.ts
+node_modules/
+.git/
