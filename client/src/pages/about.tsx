@@ -1,4 +1,4 @@
-import headshotImg from "@assets/headshot_1759242359979.png";
+import headshotImg from "@assets/headshot_1759242635167.png";
 
 export default function About() {
   return (
@@ -40,11 +40,11 @@ export default function About() {
             </div>
             
             <div className="space-y-8">
-              <div className="w-full max-w-md brutalist-border brutalist-shadow overflow-hidden bg-muted" data-testid="img-about-photo">
+              <div className="w-full max-w-md brutalist-border brutalist-shadow overflow-hidden" data-testid="img-about-photo">
                 <img 
                   src={headshotImg} 
                   alt="Nishal Narechania - Product Leader" 
-                  className="w-full h-auto"
+                  className="w-full h-auto object-cover"
                 />
               </div>
               

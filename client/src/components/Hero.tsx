@@ -1,4 +1,4 @@
-import headshotImg from "@assets/headshot_1759242359979.png";
+import headshotImg from "@assets/headshot_1759242635167.png";
 
 export default function Hero() {
   return (
@@ -47,11 +47,11 @@ export default function Hero() {
           </div>
           
           <div className="lg:justify-self-end">
-            <div className="w-96 h-96 max-w-full brutalist-border brutalist-shadow overflow-hidden bg-muted" data-testid="img-headshot">
+            <div className="w-96 h-96 max-w-full brutalist-border brutalist-shadow overflow-hidden" data-testid="img-headshot">
               <img 
                 src={headshotImg} 
                 alt="Nishal Narechania - Product Leader" 
-                className="w-full h-full object-contain"
+                className="w-full h-full object-cover"
               />
             </div>
           </div>
