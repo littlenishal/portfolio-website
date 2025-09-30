@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import headshotImg from "@assets/headshot_1759242359979.png";
 
 export default function Hero() {
   return (
@@ -47,11 +47,12 @@ export default function Hero() {
           </div>
           
           <div className="lg:justify-self-end">
-            {/* Professional headshot placeholder - modern geometric shape */}
-            <div className="w-96 h-96 bg-accent brutalist-border brutalist-shadow relative" data-testid="img-headshot">
-              <div className="absolute inset-4 bg-muted flex items-center justify-center">
-                <User className="h-24 w-24 text-muted-foreground" />
-              </div>
+            <div className="w-96 h-96 max-w-full brutalist-border brutalist-shadow overflow-hidden" data-testid="img-headshot">
+              <img 
+                src={headshotImg} 
+                alt="Nishal Narechania - Product Leader" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

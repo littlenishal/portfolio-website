@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import headshotImg from "@assets/headshot_1759242359979.png";
 
 export default function About() {
   return (
@@ -40,11 +40,12 @@ export default function About() {
             </div>
             
             <div className="space-y-8">
-              {/* Professional photo placeholder */}
-              <div className="w-full max-w-md bg-accent brutalist-border brutalist-shadow" data-testid="img-about-photo">
-                <div className="aspect-square bg-muted m-4 flex items-center justify-center">
-                  <User className="h-32 w-32 text-muted-foreground" />
-                </div>
+              <div className="w-full max-w-md brutalist-border brutalist-shadow overflow-hidden" data-testid="img-about-photo">
+                <img 
+                  src={headshotImg} 
+                  alt="Nishal Narechania - Product Leader" 
+                  className="w-full h-auto object-cover"
+                />
               </div>
               
               {/* Experience Highlights */}
