@@ -1,6 +1,7 @@
 server/
 scripts/
-*.ts
-!vite.config.ts
+dist/
 node_modules/
 .git/
+.replit
+replit.nix
